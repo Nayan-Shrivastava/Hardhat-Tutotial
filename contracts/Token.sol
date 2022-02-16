@@ -12,7 +12,7 @@ contract Token is ERC20, Ownable {
     }
 
     function mint(address account, uint amount) public onlyOwner {
-        require(amount <= maxSupply - totalSupply(),"minting more than maxSupply" );
+        require(amount <= maxSupply - totalSupply(), "minting more than maxSupply" );
         _mint(account, amount);
     }
 
