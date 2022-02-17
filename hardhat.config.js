@@ -10,7 +10,7 @@ const ROPSTEN_URL = process.env.ROPSTEN_URL;
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
 const YOUR_ETHERSCAN_API_KEY = process.env.YOUR_ETHERSCAN_API_KEY;
 module.exports = {
-  solidity: "0.8.0",
+  solidity: "0.8.9",
   networks: {
     ropsten: {
       url: ROPSTEN_URL,
