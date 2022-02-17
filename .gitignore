@@ -1,6 +1,7 @@
 node_modules
 .idea
 .env
+note.txt
 #Hardhat files
 cache
 artifacts
