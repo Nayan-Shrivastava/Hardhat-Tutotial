@@ -16,6 +16,12 @@ module.exports = {
       url: ROPSTEN_URL,
       accounts: [`0x${PRIVATE_KEY}`],
     },
+    ganache: {
+      url: "HTTP://127.0.0.1:7545",
+      accounts: [
+        `0x${"928a4b85f16308896ad476070ed6453ee41b779f33052c3109190ba48053285b"}`,
+      ],
+    },
   },
   etherscan: {
     // Your API key for Etherscan
